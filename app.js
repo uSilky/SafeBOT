@@ -44,7 +44,7 @@ client.on("message", async message => {
                .setTimestamp()
                .setFooter(`Por: ${message.author.tag}`, message.author.avatarURL)
             
-            message.channel.send("", anuncio)
+            message.channel.send("@everyone", anuncio)
     
     }
 }
