@@ -19,3 +19,6 @@ module.exports.run = async (client, message, args) =>{
        .setFooter(`Anunciado por: ${message.author.tag}`, message.author.avatarURL)
     
     message.channel.send("@everyone", anuncio)
+
+}
+}
